@@ -23,7 +23,7 @@ homegallery.forEach(e => {
     html += `
     <div class="card my-5" style="width: 20rem;>
     <div class="card-image">
-    <img src="../images/${e.card_img}.jpg" class="card-img-top" alt="cloth">
+    <img src="images/${e.card_img}.jpg" class="card-img-top" alt="cloth">
     <div class="card-body">
       <p class="card-text"><h4>${e.name}</h4></p>
       <h3>${e.price}</h3>
